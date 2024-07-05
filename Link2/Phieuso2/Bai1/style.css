@@ -1,0 +1,12 @@
+table{
+    border-collapse: collapse;
+    border-color: orange;
+}
+
+table tr td{   
+    border: solid 1px black;
+}
+h1{
+    background-color: orange;
+    border-bottom: solid 5px black;
+}

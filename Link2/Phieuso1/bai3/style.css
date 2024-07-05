@@ -1,0 +1,22 @@
+.big{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    padding: 25px;
+    width: 300px;
+    height: 250px;
+
+}
+
+.small{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: aqua;
+    width: 250px;
+    padding: 25px 25px 25px 25px;
+    margin: 25px 25px 25px 25px;
+    border: 25px  blue;
+}
