@@ -3,7 +3,7 @@ body{
 }
 
 .bar{
-    margin: 10px;
+    /* margin: 10px; */
 }
 
 header{
@@ -13,7 +13,7 @@ header{
     font-size: 50px;
 }
 
-.headercolor1{
+.headercolor1 {
     color: white;
     font-weight: bold;
 
@@ -38,25 +38,30 @@ header{
     justify-content: space-evenly;
 }
   
-.bar li{
+/* .bar li{
     float: left;
-}
-  
+} */
+
 .bar li {
-    display: block;
+    /* float: left; */
+    /* display: block; */
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+    /* text-decoration: none; */
     flex:1;
-  }
+}
+
+/* .bar .headermenu li a {
+    text-decoration: none;
+} */
 
 .bar li:hover{
     background-color: green;
 }
 
 .sidebar{
-    list-style-type: none;
+    /* list-style-type: none; thẻ div không có list-style */
     overflow: hidden;
     background-color: #9D6F68;
     width: 204px;
@@ -66,16 +71,17 @@ header{
 .sidebar .leftmenu{
     margin: 0;
     padding: 0;
-    list-style-type: none;
+    /* list-style-type: none; */
+    list-style: none;
     height: 100%;
 }
 
 .sidebar .leftnav{
-    height: 60px;
-    display: block;
-   color: #000;
+   height: 60px;
+    /* display: block; vốn dĩ nó đã là thẻ block */
+   /* color: #000; */
    padding: 8px 16px;
-   text-decoration: none;
+   /* text-decoration: none; có thẻ a thì dùng */
    color: white;
 }
 

@@ -1,4 +1,3 @@
 p{
-    border: dotted;
-    border-color: red;
+    border: dotted 3px red; 
 }

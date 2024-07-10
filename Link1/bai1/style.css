@@ -8,7 +8,6 @@ header{
     background-color: blueviolet;
     height: 200px;
     color: white;
-    
 }
 
 menu{
@@ -20,8 +19,8 @@ menu{
 .container{
     display: flex;
     height: 700px;
-    width: 100%; 
-    justify-content: space-between;   
+    /* width: 100%;  */
+    /* justify-content: space-between;    */
 }
 
 .left{
@@ -45,6 +44,6 @@ menu{
 footer{
     background-color: gray;
     height: 100px;
-    bottom: 0;
+    /* bottom: 0; top, right, bottom, left */
 }
 

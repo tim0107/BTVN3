@@ -1,15 +1,20 @@
+body, * {
+    margin: 0;
+    padding: 0;
+}
+
 .container{
-    padding: 20px;
-    position: relative;
+    padding: 20px; 
+    /* position: relative; k cần */
     display: flex;
     justify-content: flex-end;
 }
 
 ul.navbar {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    /* margin: 0;
+    padding: 0; */
+    /* overflow: hidden; */
     background-color: blue;
     display: flex;
     justify-content: space-between;
@@ -19,7 +24,7 @@ ul.navbar {
 .navbar li{
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 16px; 
     position: relative;
 }
 
@@ -27,21 +32,24 @@ ul.navbar {
     background-color: red;
 }
 
-ul.dropdown{
+.navbar li .dropdown{
     display: none;
+    list-style: none;
     position: absolute;
-    background-color: #f9f9f9;
-    width: 50%;
+    background-color: yellow;
+    top: 100%;
+    left: 0;
 }
 
 .dropdown li{
   color: black;
-  padding: 12px 16px;
-  display: inline;
+  width: max-content;
+  /* padding: 12px 16px; */
+  /* display: inline; */
 }
 
 .navbar li:hover .dropdown{
-    display: block;
+    display: flex;
 }
 
 

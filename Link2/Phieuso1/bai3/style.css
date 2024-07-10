@@ -1,4 +1,4 @@
-.big{
+/* .big{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +16,15 @@
     height: 200px;
     background-color: aqua;
     width: 250px;
-    padding: 25px 25px 25px 25px;
-    margin: 25px 25px 25px 25px;
+    padding: 25px;
+    margin: 25px;
     border: 25px  blue;
+} */
+
+.bai3 {
+    padding: 25px;
+    margin: 25px;
+    width: 200px;
+    background-color: cyan;
+    border: solid 25px blue;
 }

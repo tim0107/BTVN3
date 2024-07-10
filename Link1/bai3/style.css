@@ -1,6 +1,10 @@
 body, * {
     padding: 0;
-    margin: 10px;
+    margin: 0;
+}
+
+body {
+    margin: 20px;
 }
 
 .header{
@@ -9,17 +13,17 @@ body, * {
     position: relative; 
     display: flex;
     align-items: center;
+    justify-content: space-between;
     font-size: 30px;
     padding: 20px;
-    
 }
 
 menu{
-    position: absolute;
+    /* position: absolute; */
     width: 600px;
     height: 100px;
     background-color: greenyellow;
-    right: 0;
+    /* right: 0; */
     display: flex;
     align-items: center;
     font-size: 30px;
@@ -28,29 +32,30 @@ menu{
 
 .content{
     display: flex;
+    margin: 20px 0;
+    gap: 20px;
 }
 
 .article{
     flex: 2;
     display: flex;
     flex-direction: column;
+    gap: 20px
 }
 
-p{
-   
+.article p {
    background-color: greenyellow;
    height: 200px;
    display: flex;
    align-items: center;
    justify-content: center;
    font-size: 30px;
-
 }
 
 .sidebar{
     flex: 1;
     background-color: blue;
-    height: auto;
+    /* height: auto; */
     display: flex;
     align-items: center;
     justify-content: center;
