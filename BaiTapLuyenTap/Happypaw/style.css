@@ -11,7 +11,9 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 20px;  
+    /* thêm để căn giữa chiều dọc */
+    align-items: center; 
 }
 
 .header .title {
@@ -42,11 +44,14 @@ body {
 
 .adv {
     position: relative;
+    /* nên đặt mt ở đây thay vì ở img  */
+    margin-top: 20px;
 }
 
 .adv img {
     width: 100%;
     height: auto;
+    /* k nên đặt mt ở đây */
     margin-top: 20px;
 }
 
@@ -105,12 +110,13 @@ body {
     display: flex;
     justify-content: center;
     gap: 20px;
-
-
+    /* nên đặt ở đây */
+    margin-top: 100px;
 }
 
 .sections {
-    margin-top: 100px;
+    /* k nên  */
+    /* margin-top: 100px; */
     display: flex;
     width: 30%;
     flex-direction: column;

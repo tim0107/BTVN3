@@ -21,6 +21,7 @@ menu{
     display: flex;
     height: 700px;
     width: 100%; 
+    /* thừa  */
     justify-content: space-between;   
 }
 
