@@ -1,0 +1,104 @@
+body, * {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    display: flex;
+    background-color: aqua;
+    height: 100px;
+    justify-content: space-between;
+    z-index: 1;
+    
+}
+
+.navbar .navbar-section {
+    width: 25%;
+    height: 100%;
+    line-height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.navbar .navbar-section:hover {
+    background-color: yellow;
+    color: red;
+}
+
+.banner{
+    width: 100%;
+}
+
+.menu{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+     padding-top: 10px;
+    gap: 10px;
+    justify-content: center;
+    
+}
+
+.menu .options{
+ position: relative;
+ width: 20%;
+ margin-top: 10px;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+ border-radius: 12px;
+}
+
+.menu .options .des{
+    text-align: center;
+    margin-top: 5px;
+}
+.menu .options .des .mon-an{
+    font-weight: bold;
+    font-size: 20px;
+}
+.menu .options .des .tien{
+    margin: 5px 0;
+    color: red;
+    font-weight: bold;
+
+}
+.menu .options .des .goi-mon {
+    line-height: 25px;
+    height: 25px;
+    background-color: lightblue;
+    font-weight: bold;
+}
+
+.menu .options .des .goi-mon:hover{
+    background-color: red;
+    color: white;
+}
+
+.menu .options .sale {
+    position: absolute;
+    top: 0;
+    background-color: red;
+    padding: 5px;
+    color: yellow;
+}
+
+.menu .options .food{
+    width: 100%;
+    height: auto;  
+}
+
+.footer{
+    margin: 50px 20px;
+}
+
+.footer .footer-header{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.footer .link-home{
+
+}

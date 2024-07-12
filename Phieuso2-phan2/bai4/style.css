@@ -1,0 +1,271 @@
+/* body,* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    height: 400px;
+    background-color: rgba(14, 231, 130, 0.911);
+    border-bottom-left-radius: 50%;
+    display: flex;
+    margin-bottom: 100px;
+    margin-bottom: 10px;
+}
+
+.header .title {
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header .icon {
+    width: 50%;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    transform: translateX(-30%);
+
+}
+
+.header .icon i {
+    height: 70px;
+}
+
+.information {
+    height: 100px;
+    background-color: rgb(68, 112, 151);
+    line-height: 100px;
+    text-align: center;
+    border-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    color: rgb(236, 134, 1);
+}
+
+.container {
+    display: flex;
+    margin: 20px 50px;
+    gap: 50px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.container .education {
+    width: 70%;
+    background-color: rgb(253, 167, 8);
+
+}
+
+.container .education h1 {
+    padding-left: 15px;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.container .blog h1 {
+    padding-left: 15px;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.container .blog {
+    width: 30%;
+    background-color: rgb(253, 167, 8);
+
+}
+
+.education .haui {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: aqua;
+    margin: 10px 0;
+    justify-content: flex-start;
+
+}
+
+.education .haui img {
+    width: 100%;
+    height: auto;
+    border: solid 1px black;
+
+}
+
+.education .haui p {
+    padding-left: 5px;
+}
+
+.container .education .haui-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px
+}
+
+.blog .item {
+    display: flex;
+    align-items: center;
+    border: solid 1px orange;
+    margin: 10px 0;
+}
+
+.item .circle {
+    height: 50px;
+    width: 50px;
+    background-color: cyan;
+    border-radius: 50%;
+}
+
+.footer{
+    height: 100px;
+    background-color: antiquewhite;
+    
+    
+}
+
+.footer h1 {
+
+} */
+
+body, * {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    height: 400px;
+    background-color: rgba(14, 231, 130, 0.911);
+    border-bottom-left-radius: 50%;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.header .title {
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header .icon {
+    width: 50%;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    transform: translateX(-30%);
+}
+
+.header .icon i {
+    height: 70px;
+}
+
+.information {
+    height: 100px;
+    background-color: rgb(68, 112, 151);
+    line-height: 100px;
+    text-align: center;
+    border-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    color: rgb(236, 134, 1);
+    margin-bottom: 20px; 
+}
+
+.container {
+    display: flex;
+    margin: 20px 50px;
+    gap: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container .education {
+    width: 70%;
+    padding: 15px;
+}
+
+.container .education h1 {
+    font-size: 30px;
+    color: aliceblue;
+    background-color: rgb(253, 167, 8);
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+}
+
+.container .blog h1 {
+    padding-left: 15px;
+    font-size: 30px;
+    color: aliceblue;
+    background-color: rgb(253, 167, 8);
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+}
+
+.container .blog {
+    width: 30%;
+    
+    padding: 15px;
+}
+
+.education .haui {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: aqua;
+    margin: 10px 0;
+    justify-content: flex-start;
+}
+
+.education .haui img {
+    width: 100%;
+    height: auto;
+    border: solid 1px black;
+}
+
+.education .haui p {
+    padding-left: 5px;
+}
+
+.container .education .haui-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.blog .item {
+    display: flex;
+    align-items: center;
+    border: solid 1px orange;
+    margin: 10px 0;
+}
+
+.item .circle {
+    height: 50px;
+    width: 50px;
+    background-color: cyan;
+    border-radius: 50%;
+    margin-right: 10px; 
+}
+
+.footer {
+    background-color: rgb(186, 186, 197);
+    padding: 20px; 
+    margin-top: 20px; 
+}
+
+.footer h1 {
+    margin: 0; 
+    color: rgb(255, 0, 200);
+    text-align: center;
+}

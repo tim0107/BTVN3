@@ -1,0 +1,263 @@
+body,
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.header .title {
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+    background-color: rgb(235, 145, 235);
+    padding: 0 5px;
+}
+
+.header .navbar {
+    height: 50px;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    width: 40%;
+    line-height: 50px;
+}
+
+.header .navbar .options {
+    width: 25%;
+    text-align: center;
+}
+
+.header .navbar .options:hover {
+    background-color: rgb(191, 186, 186);
+}
+
+.adv {
+    position: relative;
+}
+
+.adv img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.adv .text-content {
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    color: white;
+}
+
+.adv .text-content h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.adv .text-content h2 {
+    font-size: 80px;
+    margin: 20px 0;
+}
+
+.adv .text-content button {
+    background-color: rgb(235, 145, 235);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.adv .text-content button:hover {
+    background-color: rgb(191, 186, 186);
+}
+
+.trainers h1 {
+    text-align: center;
+    margin-top: 90px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.trainers h2 {
+    text-align: center;
+    padding: 30px 0 50px 0;
+    font-size: 20px;
+    color: rgb(151, 150, 150);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.trainers p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+
+}
+
+.sections {
+    margin-top: 100px;
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+.sections img {
+    width: 100%;
+    height: auto;
+}
+
+.sections h1 {
+    padding: 20px 15px;
+}
+
+.sections h2 {
+    font-size: 20px;
+    color: rgb(165, 163, 163);
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+
+.sections p {
+    font-size: 20px;
+    padding-left: 15px;
+
+}
+
+.sections button {
+    background-color: rgb(215, 158, 168);
+    margin: 20px 5px;
+    padding: 10px 20px;
+    border-radius: 12px;
+}
+
+.activities h1 {
+    text-align: center;
+    margin-top: 90px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.activities h2 {
+    text-align: center;
+    padding: 30px 0 50px 0;
+    font-size: 20px;
+    color: rgb(151, 150, 150);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.activities p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dog-image {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.dog-image .sub-image img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    width: 100%;
+    height: auto;
+}
+
+.dog-image h2 {
+    margin: 20px 10px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dog-image h3 {
+    margin: 20px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dog-image button {
+    background-color: rgb(215, 158, 168);
+    margin: 15px 10px;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact h1 {
+    text-align: center;
+    margin-top: 90px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact h2 {
+    text-align: center;
+    padding: 30px 0 50px 0;
+    font-size: 20px;
+    color: rgb(151, 150, 150);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 50px;
+
+}
+
+.contact .input {
+    width: 100%;
+    height: 50px;
+    margin: 15px 0;
+}
+
+.contact .submit {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(215, 158, 168);
+    margin-bottom: 100px;
+}
+
+.contact .submit:hover {
+    background-color: rgb(191, 186, 186);
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(215, 158, 168);
+    padding: 20px;
+}
+
+footer h2 {
+    margin: 20px;
+}
+
+footer h3 {
+    margin: 20px;
+}
+
+footer button {
+    margin-top: 20px;
+    width: 120px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+footer button:hover {
+    background-color: rgb(191, 186, 186);
+
+}
